@@ -1,8 +1,12 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
-function TaskBar() {
-  return <h1>This is a paragraph, duh</h1>
+function Site() {
+  return (
+    <div>
+      <h1>Hello, world!</h1>
+    </div>
+  );
 }
-
-ReactDOM.render(<TaskBar />, document.getElementById("root"))
+ReactDOM.render(<Site />, document.getElementById("root")
+);
